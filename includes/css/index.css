@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+
+body{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.title_header{
+    font-family: 'Lobster', cursive;
+}
+
+.inicio{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.docentes{
+    max-width: 400px;
+    margin: auto;
+
+}
+
+.estudiantes{
+    max-width: 400px;
+    margin: auto;
+}
+
+.banner{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 12px 15px 15px rgb(56, 51, 51);
+
+}
+
+.asignacion{
+    display: block;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    padding: 10px;
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+
+}
+
+.derechos{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    
+}
+
+.copy{
+    max-width:20px;
+    border-radius: 50%;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+@media(max-width:768px){
+    body{
+        background: black;
+
+    }
+
+    .inicio{
+        display: block;
+        padding: 20px;
+    }
+
+    .docentes{
+        max-width: 250px;
+    }
+    
+    .estudiantes{
+        max-width: 250px;
+    }
+
+    .asignacion{
+        font-size: 18px;
+    }
+    .banner{
+        width: 100%;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 5px 10px 12px #fff;
+    }
+
+    .derechos{
+        font-size: 12px;
+    }
+    
+
+}

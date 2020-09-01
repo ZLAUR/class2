@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.formulario1{
+    margin-top: 5%;
+    width: 100%;
+    height: 50%; 
+    display: flex;  
+}
+
+.formulario2{
+    max-width: 500px;
+    display: flex;
+    margin: auto;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #fff;
+}
+
+.contenedor{
+    max-width: 400px;
+    padding: 25px;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.692);
+    border-radius: 10px;
+}
+
+.logo1{
+  max-width: 60px;
+  max-height: 60px;
+  border: 1px solid #fff;
+  box-shadow: 2px 2px  8px #4b6cb7;
+  display: flex;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.logo2{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.input_50{
+    width: 48%;
+    float: left;
+    display: block;
+    margin: 2px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding: 25px;
+}
+
+.input_100{
+    width: 98%; 
+    margin: 3px;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.info1{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+}
+
+

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contenedor{
+    max-width: 100%;
+    display: flex;
+}
+
+.contenedor0 {
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    max-width: 300px;
+    margin: 5px;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.contenedor1 {
+    max-width: 280px;
+    margin: auto;
+    padding: 5px;
+}
+
+.input_conter {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input_enviar {
+    background: red;
+    color: #fff;
+}
+
+.input_enviar:hover {
+    background: chartreuse;
+}
+
+.subir_tarea {
+    color: #fff;
+}
+
+.tablas{
+    margin: 20px;
+    width: 75%;
+    float: right;
+    margin-top: 3%;
+}
+
+.edit2{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.auto{
+    text-align: center;
+}
